@@ -1,0 +1,71 @@
+
+*{
+    background-color: rgb(53, 52, 52);
+    color:white;
+}
+.navigation{
+    display:flex;
+    justify-items:right;
+    justify-content: space-evenly;
+    color:white;
+}
+.box{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    width:1400px;
+    justify-content: space-evenly;
+}
+.photo{
+    background-image: url("profile.png");
+    background-size: cover;
+    height:300px;
+    width:300px;
+    border:2px solid white;
+    border-radius:50%;
+    background-color: white;
+}
+.pro{
+    display:flex;
+}
+.about{
+    padding-left:50px;
+}
+h1{
+    color:rgb(249, 84, 84);
+}
+button{
+    background-color: rgb(249, 84, 84);
+    border:2px solid transparent;
+    border-radius:10%;
+}
+.skill{
+    color:white;
+    padding-left:150px;   
+}
+.skills{
+   height:400px;
+   background-color: rgb(250, 92, 89);
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.box1{
+    height:300px;
+    width:541px;
+    background-image: url('skill1.jpg');
+    background-size: cover;
+}
+.box2{
+    height:300px;
+    width:300px;
+    background-image: url('skill2.png');
+    background-size: cover;
+}
+.box3{
+    height:300px;
+    width:300px;
+    background-image: url('skill3.png');
+    background-size: cover;
+}
+
